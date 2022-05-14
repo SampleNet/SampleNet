@@ -1,0 +1,27 @@
+# See pytorch website for properly installing these requirements
+# torch~=1.11.0
+# torchvision~=0.12.0
+# torchaudio~=0.11.0
+
+# Required to run most experiments
+pykeops
+geomloss
+pytorch-lightning
+gpytorch
+seaborn
+scikit-learn
+tensorflow-gpu
+tensorflow_probability
+wandb
+einops
+prettytable
+
+# These should automatically be installed if installing previous packages in order.
+numpy
+scipy
+pandas
+matplotlib
+tqdm
+
+# Only if we need to train bnn
+edward2
